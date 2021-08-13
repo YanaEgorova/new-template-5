@@ -53,7 +53,6 @@
     border: none;
     background: none;
     border-bottom: .2rem solid var(--first-brand-color);
-    /* background-color: var(--first-brand-color); */
     padding: 1rem;
     font-size: 1.8rem;
 }
