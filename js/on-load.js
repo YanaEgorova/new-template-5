@@ -9,7 +9,15 @@ const totalPrice = document.querySelectorAll('.js_total-price');
 const emptyMessage = document.querySelector('.js_empty-cart');
 const table = document.querySelector('.js_product-table');
 
+const submitFormButton = document.querySelector('.js_form-submit-btn');
 
+submitFormButton.addEventListener('click', submitForm);
+
+
+function submitForm(e) {
+   e.preventDefault();
+   localStorage.clear();
+}
 
 
 
